@@ -27,4 +27,6 @@
 /usr/bin/groupadd-user inet || :\
 %{nil}
 
+Provides: ofono-configs
+
 %include rpm/dhd/droid-hal-device.inc
