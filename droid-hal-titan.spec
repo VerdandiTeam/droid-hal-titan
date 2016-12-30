@@ -27,6 +27,9 @@
 /usr/bin/groupadd-user inet || :\
 %{nil}
 
+Provides: bluez-configs
+Conflicts: bluez-configs-sailfish
+Obsoletes: bluez-configs-sailfish
 Provides: ofono-configs
 
 %include rpm/dhd/droid-hal-device.inc
