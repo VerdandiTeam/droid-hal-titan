@@ -8,6 +8,9 @@
 
 %define installable_zip 1
 
+# Entries migrated from the old rpm/droid-hal-hammerhead.spec
+%define enable_kernel_update 1
+
 %define straggler_files \
 /init.mmi.boot.sh\
 /init.mmi.touch.sh\
