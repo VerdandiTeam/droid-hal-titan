@@ -19,4 +19,6 @@
 /service_contexts\
 %{nil}
 
+%define makefstab_skip_entries /sys/fs/cgroup/bfqio /sys/fs/pstore none
+
 %include rpm/dhd/droid-hal-device.inc
