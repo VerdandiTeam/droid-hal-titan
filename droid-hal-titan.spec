@@ -9,10 +9,11 @@
 %define installable_zip 1
 
 %define straggler_files \
-/gpecheck.sh\
 /init.mmi.boot.sh\
 /init.mmi.touch.sh\
 /init.qcom.ssr.sh\
+   /selinux_version\
+   /service_contexts\
 %{nil}
 
 # Entries migrated from the old rpm/droid-hal-titan.spec
